@@ -8,7 +8,7 @@ namespace Observer
     {
         private List<IObserver> observers = new List<IObserver>();
 
-        public Temperature Current { get; private set; }
+        public Temperature Current { get; set; }
 
         public void Subscribe(IObserver observer)
         {
